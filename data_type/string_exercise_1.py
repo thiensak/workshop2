@@ -8,7 +8,7 @@ print("Python is one of the fastest-growing programming languages"[0])
 print("Python is one of the fastest-growing programming languages"[21:28])
 
 #จงเขียนคำสั่งเพื่อแสดข้อความ "Python is one of the fastest-growing programming languages" ที่ไม่มี space
-print("Python is one of the fastest-growing programming languages".strip())
+print("Python is one of the fastest-growing programming languages".replace(" ", ""))
 
 #จงเขียนคำสั่งเพื่อแสดข้อความ "Python is one of the fastest-growing programming languages" ให้เป็นตัวพิมใหญ่ทั้งหมด
 print("Python is one of the fastest-growing programming languages".upper())
